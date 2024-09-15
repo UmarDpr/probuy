@@ -1,0 +1,37 @@
+Admin --> Add Product (Save)
+user --> seeProduct (Select) --> orderProduct (Save) --> paymentMethod (COD,Online)
+Admin --> notificationReceived --> see orderList (Select)  --> process the order --> packing and shipping
+
+// Sprint 1 - Admin Add Product
+Product Details
+01. Category Dropdown
+02. Sub Category Dropdown
+03. Product DropDown
+04. Brand Entry Field
+05. Mrp Price Entry Field
+06. Selling Price Entry Field
+07. Available Count Entry Field
+08. Description Entry Field
+09. Color
+10. Unit Type
+11. Image Details
+
+// Sprint 2 - User Buy Product
+01. show the product list using cards
+02. when user select the product entry qty and size
+03. add address details,user details and save
+buy details
+01. qty
+02. size
+03. color
+04. username
+05. mobile number
+06. email
+07. address (doorNo,street,area,city,district,pinCode)
+08. address live location get lat lang
+07. status (Order Status)
+
+// Sprint 3 - Admin Confirm the order
+01. show the order details to admin
+02. Approve or reject the order after a call
+03. process the order

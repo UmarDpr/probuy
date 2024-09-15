@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735774446205",
+    "project_id": "probuy-728a9",
+    "storage_bucket": "probuy-728a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735774446205:android:08191c986c53ca07a1d714",
+        "android_client_info": {
+          "package_name": "com.pro.pro_buy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHMHSpF8-2SXAHIXQUfyKVIivUvrJV7d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
