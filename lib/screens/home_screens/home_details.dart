@@ -375,7 +375,7 @@ class _HomeDetailScreenState extends State<HomeDetailScreen> {
                 // height: displayHeight(context) * 0.7,
                 child:  StepperWidget(
                     step: step,
-                    dynamicWidget: step == StepperObject.first ? addressDetails() : productSummary(),
+                    dynamicWidget: step == StepperObject.first ? addressDetails() : step == StepperObject.second ? productSummary() : paymentDetails(),
                     dynamicButton: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
@@ -728,6 +728,19 @@ class _HomeDetailScreenState extends State<HomeDetailScreen> {
               ],
             ),
           )
+        ],
+      ),
+    );
+  }
+
+  Widget paymentDetails(){
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const SizedBox(height: 10,),
+          Text("Product Summary" ,style: body4(Colors.black, FontWeight.w500),),
+          const SizedBox(height: 10,),
         ],
       ),
     );
